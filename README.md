@@ -4,35 +4,38 @@
 
 **Author:** Meshaal Obaid Mouawad
 
-**Latest verified manuscript:** R37 (40 pages); **pre-result verification:** R38.
+**Latest completed manuscript:** **R39 (41 pages, 22 November 2026)**. Source and PDF were rebuilt and verified. The completed experimental results are preserved unchanged.
 
-## Scientific evidence
+## Current research status
 
-| Record | Contents | Status |
+| Version | Research component | Verified finding |
 |---|---|---|
-| R15 | Frozen 24 definition–implementation pairs; 12 discrepancies, 12 controls; 21 replayed numerical witnesses | Completed |
-| R20 | Four separately selected source cases; three scoped discrepancies and one scoped agreement | Completed |
-| R29 / R30 | Twelve reference-checkable functions; two additional verified discrepancies; zero correctly accepted reports from either frozen certificate method | Completed, negative result |
-| R37 | JSS special-issue manuscript, editable LaTeX, scientific source archives | Latest verified manuscript |
-| R38 | Pre-result bibliography/evidence audit and offline DocPrism result scorer | Prepared |
-| R32 / R33 | One original DocPrism comparison on the twelve frozen cases; R33 is its runtime-recovery checkpoint | Awaiting actual model outputs |
+| R15 | 24 frozen KPI definition–implementation pairs | 12 discrepancies, 12 controls, 21 replay-verified numerical witnesses |
+| R20 | Four separate original-source cases | Three scoped discrepancies and one scoped agreement |
+| R29 / R30 | Certificate A/B comparison and source closure | Twelve checkable functions, two documented discrepancies, no accepted detection by either method; no demonstrated A/B advantage |
+| R32 / R33 | Original DocPrism comparison attempt | Twelve attempted requests: one GPU memory failure, eleven 420-second timeouts, **zero usable predictions** |
+| R37 | JSS target and review corrections | Preserved manuscript/scientific baseline |
+| R38 | Pre-result evidence review and scoring tools | Completed offline checks |
+| **R39** | **Latest manuscript/evidence release** | **41-page manuscript includes actual R33 failure outcome without inventing a comparator accuracy** |
 
-**Preservation:** Original experiment archives and revision records should be uploaded unchanged. Do not merge different research cohorts or rewrite negative results. Experimental model weights and incomplete Ollama downloads do **not** belong in this GitHub repository.
+The R33 run used `llama3.1:70b`; the Ollama runtime estimated 48.2 GiB memory against 32 GiB of installed RAM. The original model and prompt were preserved. DocPrism comparative accuracy is **not estimable**. No additional experiment is required to report the bounded empirical contribution supported by R15/R20/R29/R30.
 
-## Release layout
+## R39 archival files
 
-Upload finalized archives as GitHub Release assets with their SHA-256 checksums, using versioned filenames. GitHub’s ordinary Git file limit is 100 MB. Do not remove local originals until every remote asset is verified.
+The following files belong together in the **R39 GitHub Release**, with their checksums recorded under [`manifests/R39_2026-11-22_SHA256SUMS.txt`](manifests/R39_2026-11-22_SHA256SUMS.txt):
 
-### Required release artifacts
+- `LEAP_Paper6_R39_Complete_Evidence_Package_2026-11-22.zip` (complete 50.5 MB release including the final PDF, editable source, original evidence archives, runtime logs, and verification reports)
+- `LEAP_Paper6_R39_Editable_Source.zip` (standalone editable article)
+- `LEAP_Paper6_R39_JSS_Manuscript.pdf` (41 pages; also inside the complete ZIP)
+- `LEAP_Paper6_R39_Verification_Report.md`
+- `R39_Manuscript_Handoff.md`
 
-- `LEAP_Paper6_R37_Targeted_JSS_Revision_2026-11-20.zip` — complete verified editorial/scientific package
-- `LEAP_Paper6_R37_JSS_Manuscript.pdf` — current manuscript
-- `LEAP_Paper6_R37_Editable_Source.zip` — current editable manuscript
-- `LEAP_Paper6_R37_Research_Evidence.zip` — preserved R15, R20, R29, and R30 records
-- `LEAP_Paper6_R38_PreResult_Closure_2026-11-21.zip` — pre-result audit/scoring tools
+**Upload status:** The records and SHA-256 values above are registered in this repository. The R39 binary release assets must be uploaded separately; a README update alone does not publish them.
 
-Results from the existing R33 DocPrism task are to be stored only when real inference outputs and model identity have been verified.
+## Preservation and verification
 
-## Research status
+The R39 archive contains 17 members and passes ZIP CRC and all 16 internal SHA-256 manifest entries. Its R39 PDF contains 41 pages. A separate local LaTeX rebuild also produced 41 pages with matching extracted text; minor anti-alias/pixel differences between build environments do not affect page text.
 
-This repository does not claim that the published DocPrism comparison is complete. The paper preserves the completed negative results and maintains distinct evidence sets. 
+Preserve the original R15, R20, R23, R29, R30 and R37 archives. Each has a separate provenance record. Do not merge experiment denominators, turn failed DocPrism requests into negatives, or replace the negative R29/R30 findings.
+
+The former R37/R38 release remains in [historical releases](https://github.com/Meshaal-Mouawad/LEAP-Paper6-Evidence/releases).
