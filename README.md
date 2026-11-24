@@ -1,41 +1,41 @@
-# LEAP Paper 6 — Research evidence
+# LEAP Paper 6 — Manuscript and research evidence
 
 **Paper:** Trustworthiness of automated numerical-indicator alerts: a source-pinned empirical study
 
 **Author:** Meshaal Obaid Mouawad
 
-**Latest completed manuscript:** **R39 (41 pages, 22 November 2026)**. Source and PDF were rebuilt and verified. The completed experimental results are preserved unchanged.
+<!-- BEGIN PAPER6 CURRENT MANUSCRIPT -->
+**Current prepared manuscript:** R52 (39 pages, 24 November 2026).
 
-## Current research status
+**Release status:** R52 handoff verified locally; binary assets await publication. The latest published release remains [R39](https://github.com/Meshaal-Mouawad/LEAP-Paper6-Evidence/releases/tag/r39-2026-11-22).
 
-| Version | Research component | Verified finding |
+**R52 checksums:** [Expected release asset SHA-256 manifest](manifests/R52_2026-11-24_SHA256SUMS.txt).
+<!-- END PAPER6 CURRENT MANUSCRIPT -->
+
+## Scientific contribution
+
+Paper 6 holds a written numerical rule fixed while comparing related code versions. In the four Pain Index cases, the same warning accompanied two versions that agreed with the tested reference and two that required different arithmetic repairs. Separate numerical tests and source inspection distinguished the missing average from the missing percentage conversion.
+
+R52 clarifies this empirical contribution in the abstract, introduction, related work, conclusion and five journal highlights. The scientific results remain those of the frozen research archive.
+
+## Research evidence
+
+| Version | Research component | Finding |
 |---|---|---|
-| R15 | 24 frozen KPI definition–implementation pairs | 12 discrepancies, 12 controls, 21 replay-verified numerical witnesses |
+| R15 | 24 frozen definition–implementation pairs | 12 discrepancies and 12 controls; 21 replayed numerical witnesses |
 | R20 | Four separate original-source cases | Three scoped discrepancies and one scoped agreement |
-| R29 / R30 | Certificate A/B comparison and source closure | Twelve checkable functions, two documented discrepancies, no accepted detection by either method; no demonstrated A/B advantage |
-| R32 / R33 | Original DocPrism comparison attempt | Twelve attempted requests: one GPU memory failure, eleven 420-second timeouts, **zero usable predictions** |
-| R37 | JSS target and review corrections | Preserved manuscript/scientific baseline |
-| R38 | Pre-result evidence review and scoring tools | Completed offline checks |
-| **R39** | **Latest manuscript/evidence release** | **41-page manuscript includes actual R33 failure outcome without inventing a comparator accuracy** |
+| R29 / R30 | Certificate A/B comparison and source closure | Twelve reference-checkable functions; two documented source discrepancies; no correctly accepted reports from either frozen method |
+| R32 / R33 | DocPrism execution attempt | Twelve requests: one GPU memory failure and eleven 420-second timeouts; zero usable predictions |
+| R39 | Frozen research evidence | Complete empirical records and reproducibility archive |
+| R52 | Manuscript novelty revision | 39 pages, 16 tables, five figures, revised highlights and separate graphical abstract |
 
-The R33 run used `llama3.1:70b`; the Ollama runtime estimated 48.2 GiB memory against 32 GiB of installed RAM. The original model and prompt were preserved. DocPrism comparative accuracy is **not estimable**. No additional experiment is required to report the bounded empirical contribution supported by R15/R20/R29/R30.
+The R33 run used `llama3.1:70b`; the Ollama runtime estimated 48.2 GiB of memory against 32 GiB of installed RAM. The original model and prompt were preserved. DocPrism comparative accuracy remains unmeasured.
 
-## R39 archival files
+## Replication materials
 
-The following files belong together in the **R39 GitHub Release**, with their checksums recorded under [`manifests/R39_2026-11-22_SHA256SUMS.txt`](manifests/R39_2026-11-22_SHA256SUMS.txt):
+- [R39 frozen research evidence release](https://github.com/Meshaal-Mouawad/LEAP-Paper6-Evidence/releases/tag/r39-2026-11-22): five published and verified files, including the complete 50.5 MB evidence archive.
+- [R39 checksums](manifests/R39_2026-11-22_SHA256SUMS.txt).
+- [Harvard Dataverse DOI: 10.7910/DVN/QSFQHQ](https://doi.org/10.7910/DVN/QSFQHQ) — draft status recorded in R52.
+- [Historical releases](https://github.com/Meshaal-Mouawad/LEAP-Paper6-Evidence/releases).
 
-- `LEAP_Paper6_R39_Complete_Evidence_Package_2026-11-22.zip` (complete 50.5 MB release including the final PDF, editable source, original evidence archives, runtime logs, and verification reports)
-- `LEAP_Paper6_R39_Editable_Source.zip` (standalone editable article)
-- `LEAP_Paper6_R39_JSS_Manuscript.pdf` (41 pages; also inside the complete ZIP)
-- `LEAP_Paper6_R39_Verification_Report.md`
-- `R39_Manuscript_Handoff.md`
-
-**Upload status:** The records and SHA-256 values above are registered in this repository. The R39 binary release assets must be uploaded separately; a README update alone does not publish them.
-
-## Preservation and verification
-
-The R39 archive contains 17 members and passes ZIP CRC and all 16 internal SHA-256 manifest entries. Its R39 PDF contains 41 pages. A separate local LaTeX rebuild also produced 41 pages with matching extracted text; minor anti-alias/pixel differences between build environments do not affect page text.
-
-Preserve the original R15, R20, R23, R29, R30 and R37 archives. Each has a separate provenance record. Do not merge experiment denominators, turn failed DocPrism requests into negatives, or replace the negative R29/R30 findings.
-
-The former R37/R38 release remains in [historical releases](https://github.com/Meshaal-Mouawad/LEAP-Paper6-Evidence/releases).
+Preserve each original research cohort, source archive and negative finding. Do not combine experimental denominators or classify failed DocPrism requests as predictions.
