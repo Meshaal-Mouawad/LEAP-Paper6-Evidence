@@ -5,11 +5,11 @@
 **Author:** Meshaal Obaid Mouawad
 
 <!-- BEGIN PAPER6 CURRENT MANUSCRIPT -->
-**Current prepared manuscript:** R52 (39 pages, 24 November 2026).
+**Current submitted manuscript: R58 (24 November 2026).**
 
-**Release status:** R52 handoff verified locally; binary assets await publication. The latest published release remains [R39](https://github.com/Meshaal-Mouawad/LEAP-Paper6-Evidence/releases/tag/r39-2026-11-22).
+[R58 manuscript and supplementary materials](https://github.com/Meshaal-Mouawad/LEAP-Paper6-Evidence/releases/tag/r58-2026-11-24) · [R39 frozen experimental evidence](https://github.com/Meshaal-Mouawad/LEAP-Paper6-Evidence/releases/tag/r39-2026-11-22) · [Harvard Dataverse](https://doi.org/10.7910/DVN/QSFQHQ) (draft at submission).
 
-**R52 checksums:** [Expected release asset SHA-256 manifest](manifests/R52_2026-11-24_SHA256SUMS.txt).
+JSS — VSI: Reliable Automated SE.
 <!-- END PAPER6 CURRENT MANUSCRIPT -->
 
 ## Scientific contribution
